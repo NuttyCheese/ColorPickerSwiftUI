@@ -116,7 +116,7 @@ struct SliderColor: View {
         
         VStack {
             ValueTextField(textValue: $textValue, value: $value)
-            ValueText(valueText: "255", color: .red)
+            ValueText(valueText: "255", color: trackColor)
             Slider(value: $value, in: 0...255, step: 1)
                 .tint(trackColor)
                 .onChange(of: value) { isOnFocus in
