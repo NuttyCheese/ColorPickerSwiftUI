@@ -12,10 +12,6 @@ struct ContentView: View {
     @State private var valueGreen = Double.random(in: 0...255)
     @State private var valueBlue = Double.random(in: 0...255)
     
-    @State private var valueRedTextField = ""
-    @State private var valueGreenTextField = ""
-    @State private var valueBlueTextField = ""
-    
     @FocusState private var focusedField: Bool
     
     var body: some View {
