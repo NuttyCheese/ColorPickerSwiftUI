@@ -61,11 +61,7 @@ struct RectangleView: View {
     var body: some View {
         Rectangle()
             .frame(width: 350, height: 160)
-            .foregroundColor(Color(red: red / 255,
-                                   green: green / 255,
-                                   blue: blue / 255
-                                  )
-            )
+            .foregroundColor(Color(red: red / 255, green: green / 255, blue: blue / 255 ))
             .cornerRadius(30)
             .padding(.bottom)
     }
